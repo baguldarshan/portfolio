@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Darshan Bagul - CS Engineering Student | Cybersecurity Enthusiast | IoT Developer">
+    <meta name="keywords" content="Darshan Bagul, Computer Science, Cybersecurity, IoT, Portfolio, Developer">
+    <meta name="author" content="Darshan Bagul">
+    <title>Darshan Bagul - Portfolio</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Small boot script to avoid flash-of-incorrect-theme (reads stored preference or system) -->
+    <script>!function () { try { var t = localStorage.getItem('theme'); if (!t) { t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light' } document.documentElement.setAttribute('data-theme', t) } catch (e) { } }();</script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <!-- Logo and profile image together -->
+            <div class="logo-section">
+                <img src="images/profile.jpeg" alt="Profile Photo" class="profile-photo">
+                <div class="logo">Darshan Bagul</div>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#profiles">Profiles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle theme"
+                aria-pressed="false">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-tag">Available for Internship Opportunities</span>
+                <h1>CS Engineer </h1>
+                <h5>
+                    <p>Computer Science Engineering student passionate about Cybersecurity and IoT development.
+                        Experienced
+                        in C++, Python, network security, and embedded systems. Award-winning developer actively seeking
+                        internships.</p>
+                </h5>
+                <!-- <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> Let's Talk
+                    </a> -->
+                <a href="https://drive.google.com/file/d/1tHHLAPKsEP6m2jjyi05D-t-JbhebRbWI/view?usp=drive_link"
+                    target="_blank" class="btn btn-secondary">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+            </div>
+            <div class="hero-visual">
+                <!-- Hero/profile avatar (above-the-fold) -->
+                <img src="images/profile.jpeg" alt="Hero Profile Photo" class="hero-profile-photo" width="150"
+                    height="150" decoding="async" fetchpriority="high">
+                <!-- <div class="floating-card card-1">
+                    <h4>10+</h4>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="floating-card card-2">
+                    <h4>10+</h4>
+                    <p>Technologies</p>
+                </div> -->
+                <!-- <div class="floating-card card-3">
+                        <h4>Winner</h4>
+                        <p>IoT Competition</p>
+                    </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-grid">
+            <!-- <div class="stat-card">
+                <h3>DSA</h3>
+                <p>DSA Problems</p>
+            </div> -->
+            <div class="stat-card">
+                <h3>4.2★</h3>
+                <p>CodeChef Rating</p>
+            </div>
+            <div class="stat-card">
+                <h3>7.1</h3>
+                <p>CGPA</p>
+            </div>
+            <div class="stat-card">
+                <h3>83%</h3>
+                <p>HSC Score</p>
+            </div>
+            <div class="stat-card">
+                <h3>89.60%</h3>
+                <p>SSC Score</p>
+            </div>
+            <div class="stat-card">
+                <h3>10+</h3>
+                <p>Certifications</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-header">
+            <span class="section-tag">About Me</span>
+            <h2>Crafting Solutions Through Code</h2>
+            <p>Passionate developer with expertise in Cybersecurity,competitive programming and IoT</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a Computer Science Engineering student at Pimpri Chinchwad University with a deep passion for
+                    Cybersecurity and IoT development. My journey began with a curiosity about how technology can
+                    protect and innovate, which evolved into a commitment to creating secure and impactful solutions.
+                </p>
+                <div class="skills-showcase">
+                    <span class="skill-badge">C++</span>
+                    <span class="skill-badge">Python</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">Network Security</span>
+                    <span class="skill-badge">IoT Security</span>
+                    <span class="skill-badge">Arduino</span>
+                    <span class="skill-badge">Linux</span>
+                    <span class="skill-badge">DSA</span>
+                    <span class="skill-badge">OOP</span>
+                </div>
+            </div>
+            <!-- In index.html, inside the <section class="about" id="about"> -->
+            <div class="about-visual">
+                <div class="tech-orbit">
+                    <!-- ADD THIS LINE FOR THE CENTRAL IMAGE -->
+                    <!-- The orbiting icons follow below -->
+                    <div class="tech-icon">C++</div>
+                    <div class="tech-icon"></div>
+                    <div class="tech-icon"></div>
+                    <div class="tech-icon"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-header">
+            <span class="section-tag">My Work</span>
+            <h2>Featured Projects</h2>
+            <p>A showcase of my best work in IoT, Cybersecurity, and Software Development</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image" style="background: var(--gradient-1);">
+                    <i class="fas fa-satellite-dish"></i>
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="project-tag">Arduino</span>
+                        <span class="project-tag">C++</span>
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">IoT</span>
+                    </div>
+                    <h3>🥇 IoT Object Detector Radar System</h3>
+                    <p>Award-winning IoT-based object detection system using Arduino and ultrasonic sensors. Won 1st
+                        place among 100+ projects in university technical competition. Features real-time object
+                        tracking and distance measurement.</p>
+                    <div class="project-links">
+                        <a href="#contact" class="project-link">
+                            <i class="fas fa-info-circle"></i> Details
+                        </a>
+                        <a href="https://github.com/baguldarshan" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image" style="background: var(--gradient-2);">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Security</span>
+                        <span class="project-tag">Network</span>
+                    </div>
+                    <h3>Cybersecurity Tools Suite</h3>
+                    <p>Collection of Python-based security tools for network scanning, vulnerability assessment, and
+                        penetration testing. Developed as part of personal cybersecurity development initiative.</p>
+                    <div class="project-links">
+                        <a href="#contact" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Documentation
+                        </a>
+                        <a href="https://github.com/darshanbagul" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image" style="background: var(--gradient-3);">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="project-tag">Raspberry Pi</span>
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">IoT</span>
+                    </div>
+                    <h3>Smart Home Security System</h3>
+                    <p>Raspberry Pi-based home security system with motion detection, real-time alerts, and camera
+                        integration. Features remote monitoring capabilities and automated responses.</p>
+                    <div class="project-links">
+                        <a href="#contact" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Details
+                        </a>
+                        <a href="https://github.com/darshanbagul" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="project-tag">C++</span>
+                        <span class="project-tag">DSA</span>
+                        <span class="project-tag">Algorithms</span>
+                    </div>
+                    <h3>DSA Problem Solutions</h3>
+                    <p>Comprehensive collection of 500+ Data Structures and Algorithms problems solved on various
+                        platforms. Includes detailed explanations and optimized solutions in C++ and Python.</p>
+                    <div class="project-links">
+                        <a href="https://codolio.com/profile/baguldarshan" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Codolio
+                        </a>
+                        <a href="https://github.com/darshanbagul" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> Solutions
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section class="experience" id="education">
+        <div class="section-header">
+            <span class="section-tag">Education & Certifications</span>
+            <h2>Academic Journey</h2>
+            <p>My educational background and professional certifications</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="timeline-date">2024 - 2028</span>
+                    <h3>B.Tech - Computer Science and Engineering</h3>
+                    <h4>Pimpri Chinchwad University, Pune</h4>
+                    <ul>
+                        <li>Current CGPA: 6.7/10</li>
+                        <li>Coursework: Data Structures & Algorithms, OOP, Operating Systems, DBMS, Network Security
+                        </li>
+                        <li>🥇 Won 1st place in university technical competition for IoT project (2024)</li>
+                        <li>🎓 Dean's List Recognition for Academic Excellence (2024)</li>
+                        <li>Active member of Cybersecurity Club and IoT Development Team</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="timeline-date">2024</span>
+                    <h3>Higher Secondary Certificate (HSC)</h3>
+                    <h4>Orchid International School, Nashik</h4>
+                    <ul>
+                        <li>Scored 83% in HSC examinations</li>
+                        <li>Specialized in Science stream with Mathematics and Computer Science</li>
+                        <li>School topper in Computer Science subject</li>
+                        <li>Participated in various inter-school coding competitions</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="timeline-date">2025 (In Progress)</span>
+                    <h3>Operating Systems Specialization</h3>
+                    <h4>Coursera Certification</h4>
+                    <ul>
+                        <li>Comprehensive study of OS concepts and implementation</li>
+                        <li>Process management, memory management, and file systems</li>
+                        <li>Multi-threading and synchronization techniques</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="timeline-date">2024</span>
+                    <h3>Network Security Fundamentals</h3>
+                    <h4>Coursera Certification</h4>
+                    <ul>
+                        <li>Completed comprehensive network security course</li>
+                        <li>Topics: Firewalls, VPNs, intrusion detection, cryptography</li>
+                        <li>Hands-on labs with network security tools and protocols</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="timeline-date">2024</span>
+                    <h3>Python Programming & Cybersecurity</h3>
+                    <h4>Coursera Certifications</h4>
+                    <ul>
+                        <li>Python Programming - Beginners to Advanced (Completed)</li>
+                        <li>Introduction to Cybersecurity (Completed)</li>
+                        <li>Developed practical skills in secure coding and ethical hacking</li>
+                        <li>50+ total certifications across various platforms</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Coding Profiles Section -->
+    <section class="coding-profiles" id="profiles">
+        <div class="section-header">
+            <span class="section-tag">Coding Profiles</span>
+            <h2>Find Me On</h2>
+            <p>Connect with me on various coding platforms and see my progress</p>
+        </div>
+        <div class="profiles-container">
+            <!-- Competitive Programming -->
+            <div class="profile-category">
+                <h3><i class="fas fa-trophy"></i> Competitive Programming</h3>
+                <div class="profile-links-grid">
+                    <!-- <a href="https://leetcode.com/baguldarshan" target="_blank" class="profile-link">
+                        <div class="profile-icon"
+                            style="background: linear-gradient(135deg, #FFA116 0%, #FF6B00 100%);">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="profile-info">
+                            <h4>LeetCode</h4>
+                            <p>500+ Problems Solved</p>
+                        </div>
+                    </a>
+                    <a href="https://www.codechef.com/users/baguldarshan" target="_blank" class="profile-link">
+                        <div class="profile-icon"
+                            style="background: linear-gradient(135deg, #5B4638 0%, #8B6F47 100%);">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div class="profile-info">
+                            <h4>CodeChef</h4>
+                            <p>4.2★ Rating</p>
+                        </div>
+                    </a>
+                    <a href="https://www.hackerrank.com/baguldarshan" target="_blank" class="profile-link">
+                        <div class="profile-icon"
+                            style="background: linear-gradient(135deg, #00EA64 0%, #00BA51 100%);">
+                            <i class="fas fa-h-square"></i>
+                        </div>
+                        <div class="profile-info">
+                            <h4>HackerRank</h4>
+                            <p>Active Problem Solver</p>
+                        </div>
+                    </a> -->
+                    <a href="https://codolio.com/profile/baguldarshan" target="_blank" class="profile-link">
+                        <div class="profile-icon"
+                            style="background: linear-gradient(135deg, #6366F1 0%, #4F46E5 100%);">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="profile-info">
+                            <h4>Codolio</h4>
+                            <p>500+ DSA Solutions</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Development Platforms -->
+            <div class="profile-category">
+                <h3><i class="fas fa-laptop-code"></i> Development Platforms</h3>
+                <div class="profile-links-grid">
+                    <a href="https://github.com/baguldarshan" target="_blank" class="profile-link">
+                        <div class="profile-icon"
+                            style="background: linear-gradient(135deg, #333333 0%, #000000 100%);">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="profile-info">
+                            <h4>GitHub</h4>
+                            <p>Open Source Projects</p>
+                        </div>
+                    </a>
+                    <!-- <a href="https://stackoverflow.com/users/baguldarshan" target="_blank" class="profile-link">
+                        <div class="profile-icon"
+                            style="background: linear-gradient(135deg, #F48024 0%, #D96D1A 100%);">
+                            <i class="fab fa-stack-overflow"></i>
+                        </div>
+                        <div class="profile-info">
+                            <h4>Stack Overflow</h4>
+                            <p>Community Member</p>
+                        </div>
+                    </a> -->
+                </div>
+            </div>
+            <!-- Professional & Social -->
+            <div class="profile-category">
+                <h3><i class="fas fa-users"></i> Professional & Social</h3>
+                <div class="profile-links-grid">
+                    <a href="https://www.linkedin.com/in/baguldarshan/" target="_blank" class="profile-link">
+                        <div class="profile-icon"
+                            style="background: linear-gradient(135deg, #0077B5 0%, #005E93 100%);">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="profile-info">
+                            <h4>LinkedIn</h4>
+                            <p>Professional Network</p>
+                        </div>
+                    </a>
+                    <!-- <a href="https://twitter.com/baguldarshan" target="_blank" class="profile-link">
+                        <div class="profile-icon"
+                            style="background: linear-gradient(135deg, #1DA1F2 0%, #1A8CD8 100%);">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="profile-info">
+                            <h4>Twitter</h4>
+                            <p>Tech Updates</p>
+                        </div>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>If you'd like to get in touch, feel free to reach out through any of the platforms below.</p>
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email</strong><br>
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">baguldarshan111@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Phone</strong><br>
+                            <a href="tel:+918999082408">+91 8999082408</a>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Location</strong><br>
+                            <span style="color: var(--text-secondary);">Nashik, India (Willing to relocate)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Tell me about your opportunity or project..."
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </div>
+    </section> -->
+
+        <!-- Footer -->
+        <!-- <footer>
+                <div class="footer-content">
+                    <div class="social-links">
+                        <a href="https://github.com/baguldarshan" target="_blank" class="social-link" title="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/baguldarshan/" target="_blank" class="social-link"
+                            title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/baguldarshan" target="_blank" class="social-link"
+                            title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://leetcode.com/baguldarshan" target="_blank" class="social-link"
+                            title="LeetCode"><i class="fas fa-code"></i></a>
+                        <a href="https://codolio.com/profile/baguldarshan" target="_blank" class="social-link"
+                            title="Codolio"><i class="fas fa-user-circle"></i></a>
+                    </div>
+                    <p style="color: var(--text-secondary); margin-bottom: 0.5rem;">
+                        Designed & Built by Darshan Bagul
+                    </p>
+                </div>
+            </footer> -->
+
+        <!-- Scroll to Top Button -->
+        <button class="scroll-top" id="scrollTop">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
+        <!-- Custom JavaScript -->
+        <script src="script.js"></script>
+</body>
+
+</html>
