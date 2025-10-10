@@ -2,9 +2,7 @@
  * Portfolio Stylesheet for Darshan Bagul
  * Focus: Dark theme, modern aesthetics, and full responsiveness.
  */
-
 /* --- Variables and Base Styling --- */
-
 :root {
     --color-primary: #6366F1; /* Indigo 500 */
     --color-secondary: #EC4899; /* Pink 500 */
@@ -1114,3 +1112,4 @@ footer {
         width: 100%;
     }
 }
+
