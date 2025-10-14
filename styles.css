@@ -786,7 +786,6 @@ h5 { font-weight: 400; color: var(--color-text-secondary); margin-top: 1rem; }
 .profile-category {
     margin-bottom: 3rem;
 }
-
 .profile-category h3 {
     font-size: 1.5rem;
     border-bottom: 2px solid var(--color-background-light);
@@ -1112,4 +1111,5 @@ footer {
         width: 100%;
     }
 }
+
 
