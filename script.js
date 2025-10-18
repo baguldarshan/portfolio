@@ -14,7 +14,7 @@
       btn.setAttribute('aria-pressed', theme === 'light' ? 'true' : 'false');
     }
   };
-
+  
   // Initialize theme: saved preference or system
   const initTheme = saved || (prefersDark.matches ? 'dark' : 'light');
   apply(initTheme);
@@ -62,3 +62,4 @@
   }
 
 })();
+
